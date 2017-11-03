@@ -8,6 +8,6 @@ def rename_files():
     # (2) for each file, rename filename
     # Udacity Lesson 5, Part 22 Quiz: Find the name of the fuction to rename. That fuction is os.rename
     for file_name in file_list:
-        os.rename(file_name,
-                  
+        os.rename(file_name, file_name.translate(None, "0123456789"))
+        # NOTE Error given. Program is not finding dir          
 rename_files()
