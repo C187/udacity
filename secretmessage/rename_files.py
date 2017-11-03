@@ -10,5 +10,6 @@ def rename_files():
     # Udacity Lesson 5, Part 22 Quiz: Find the name of the fuction to rename. That fuction is os.rename
     #for file_name in file_list:
         #os.rename(file_name, file_name.translate(None, "0123456789"))
-        # NOTE Error given. Program is not finding dir          
+        # NOTE Error given. Program is not finding dir
+        # DEBUG Result: Dir is a level down from the dir wanted. It's running in the same dir as the program
 rename_files()
