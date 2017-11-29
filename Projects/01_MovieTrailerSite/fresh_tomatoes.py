@@ -9,7 +9,7 @@ main_page_head = '''
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>My top twelve movies!</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -18,6 +18,7 @@ main_page_head = '''
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
+            background: #fcfdfd;
             padding-top: 80px;
         }
         #trailer .modal-dialog {
@@ -40,7 +41,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #f8f9fa;
             cursor: pointer;
         }
         .scale-media {
@@ -55,6 +56,11 @@ main_page_head = '''
             left: 0;
             top: 0;
             background-color: white;
+        }
+
+        .navbar {
+            background: #fff;
+            box-shadow: 1px 0px 5px #dce2e8;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -104,10 +110,10 @@ main_page_content = '''
 
     <!-- Main Page Content -->
     <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">My top twelve movies!</a>
           </div>
         </div>
       </div>
