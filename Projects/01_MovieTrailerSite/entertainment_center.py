@@ -1,31 +1,42 @@
 import fresh_tomatoes
 import media
 
-toy_story = media.Movie("Toy Story",
-                        "A story of a boy and his toys that come to life",
-                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+children_of_men = media.Movie("Children of Men",
+               "http://www.gstatic.com/tv/thumb/movieposters/159796/p159796_p_v8_ag.jpg",
+               "https://www.youtube.com/watch?v=2VT2apoX90o")
 
-avatar = media.Movie("Avatar",
-                     "A marine on an alien planet",
-                     "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
-                     "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
+the_martian = media.Movie("The Martian",
+                          "http://t2.gstatic.com/images?q=tbn:ANd9GcTkKPZ7EIOafEsemyn6zTIDeGYthKC_Okgxi1eX6diuOT3xKWXQ",
+                          "https://www.youtube.com/watch?v=ej3ioOneTy8")
 
-school_of_rock = media.Movie("School of Rock", "Using rock music to learn",
-                             "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-                             "https://www.youtube.com/watch?v=3PsUJFEBC74")
+star_trek_fc = media.Movie("Star Trek: First Contact",
+                           "http://t2.gstatic.com/images?q=tbn:ANd9GcQqKE15EvuPYXqFa5X1PWPlljp1pu5Ss1UUNS98qp8RkJnSBSUU",
+                           "https://www.youtube.com/watch?v=YQ1eiEvefKI")
 
-ratatouille = media.Movie("Ratatouille", "A rat is a chef in Paris",
-                          "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-                          "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+bttf = media.Movie("Back to the Future",
+                   "http://t3.gstatic.com/images?q=tbn:ANd9GcT9d_lBBx0xxB7_d4RP82MlRcK82lzT2W1ZavxhV39SSTZOofDX",
+                   "https://www.youtube.com/watch?v=qvsgGtivCgs")
 
-midnight_in_paris = media.Movie("Midnight in Paris", "Going back in time to meet authors",
-                                "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-                                "https://www.youtube.com/watch?v=FAfR8omt-CY")
+hackers = media.Movie("Hackers",
+                      "http://www.gstatic.com/tv/thumb/movieposters/17164/p17164_p_v8_ab.jpg",
+                      "https://www.youtube.com/watch?v=Rn2cf_wJ4f4")
 
-hunger_games = media.Movie("Hunger Games", "A really real reality show",
-                          "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-                          "https://www.youtube.com/watch?v=4S9a5V9ODuY")
+armitage = media.Movie("Armitage III: Poly-Matrix",
+                       "http://movie-gazette.com/images/gallery/albums/A//armitage-iii-polymatrix.jpg",
+                       "https://www.youtube.com/watch?v=iXKAsybyIRw")
 
-movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+blade_runner = media.Movie("Blade Runner",
+                           "https://upload.wikimedia.org/wikipedia/en/5/53/Blade_Runner_poster.jpg",
+                           "https://www.youtube.com/watch?v=eogpIG53Cis")
+
+network = media.Movie("Network",
+                      "http://t3.gstatic.com/images?q=tbn:ANd9GcRb2hVTyo4nNmB-UTxDvDnZBOHgeDPq9Wl-sOaM5-sVDNghePg6",
+                      "https://www.youtube.com/watch?v=1cSGvqQHpjs")
+
+tmfe = media.Movie("The Man from Earth",
+                   "http://www.gstatic.com/tv/thumb/dvdboxart/174565/p174565_d_v8_aa.jpg",
+                   "https://www.youtube.com/watch?v=9mOIxyRTY5I")
+
+# = media.Movie("", "", "")
+movies = [children_of_men, the_martian, star_trek_fc, bttf, hackers, armitage, blade_runner, network, tmfe ]
 fresh_tomatoes.open_movies_page(movies)

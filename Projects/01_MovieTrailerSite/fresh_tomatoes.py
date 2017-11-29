@@ -9,7 +9,7 @@ main_page_head = '''
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>My top twelve movies!</title>
+    <title>My top nine movies!</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -113,7 +113,7 @@ main_page_content = '''
       <div class="navbar navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">My top twelve movies!</a>
+            <h3>My top nine movies!<h3a>
           </div>
         </div>
       </div>
